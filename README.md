@@ -3,35 +3,38 @@
 We present an extention of the AdaBoost algorithm for hierarchical multiclass classification.
 
 ### Prerequisites
-Python 2.7 or above and the following libraries
+Python 3.6 or above and the following libraries
 ```
 numpy
-sklearn
+pickle
 pandas
-scipy
+sklearn
 ```
 
 ## Files
 ``` 
-  xxx.csv: a sample labeled dataset
-  yyy.py: ... 
+  ImCLEF07A_Test.arff: a sample labeled test dataset
+  ImCLEF07A_Train.arff: a sample labeled train dataset
+  run_hada_mh.py: main running file of the H-Adaboost.MH
+  label_trans.py: hierarchical label transerfer function file; called by run_hada_mh.py
+  hadaboost_mh.py: main class of the H-Adaboost.MH; called by run_hada_mh.py
+  decision_stump.py: weak classifier function file; called by run_hada_mh.py
 ```
 
 ### How to use
 ```
-Step 1. Load dataset:
-    Xtrain: Train data 
-    Ytrain: Train labels
-    Xtest:  Test data
-    Ytest: Test labels
+Step 1. Make sure run_hada_mh.py; label_trans.py; hadaboost_mh.py; decision_stump.py under same path
 
-Step 2. Define ...
-```
+Step 2. Open the run_hada_mh.py file
 
-## Example
+Step 3. Set the path of train/test file in the "Input data section"
+        Example: train_x, label_train = data_process("ImCLEF07A_Train.arff")
+                 test_x,  label_test = data_process("ImCLEF07A_Test.arff")    
 
-```
-See example.py
+Step 4. Set the a appropraite number of weak classifiers in the "Training Process"
+         Example: num_iter = 600
+
+Step 5. Running the run_hada_mh.py file
 ```
 
 #### Citation
