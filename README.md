@@ -38,5 +38,21 @@ Step 5. Running the run_hada_mh.py file
 ```
 
 #### Citation
-If you use this code, please cite:
-> 
+## Citation
+To cite our paper, please use the following reference:
+
+Charalampos Chelmis, Wenting Qi. "Hierarchical MultiClass AdaBoost." 2021 IEEE International Conference on Big Data (Big Data), 2021 doi: 10.1109/BigData52589.2021.9671291.
+
+BibTeX:
+``` 
+@article{chelmis2021hada, 
+  author={Chelmis, Charalampos and Qi, Wenting},
+  booktitle={2021 IEEE International Conference on Big Data (Big Data)}, 
+  title={Hierarchical MultiClass AdaBoost}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={5063-5070},
+  doi={10.1109/BigData52589.2021.9671291}
+  }
+```
