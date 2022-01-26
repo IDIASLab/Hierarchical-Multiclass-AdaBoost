@@ -37,7 +37,6 @@ Step 4. Set the a appropraite number of weak classifiers in the "Training Proces
 Step 5. Running the run_hada_mh.py file
 ```
 
-#### Citation
 ## Citation
 To cite our paper, please use the following reference:
 
