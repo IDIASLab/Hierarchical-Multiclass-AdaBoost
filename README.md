@@ -5,7 +5,7 @@ We present an extention of the AdaBoost algorithm for hierarchical multiclass cl
 ## Citation
 To cite our paper, please use the following reference:
 
-Charalampos Chelmis, Wenting Qi. "Hierarchical MultiClass AdaBoost." 2021 IEEE International Conference on Big Data (Big Data), 2021 doi: 10.1109/BigData52589.2021.9671291.
+Charalampos Chelmis, Wenting Qi. "Hierarchical MultiClass AdaBoost." 2021 IEEE International Conference on Big Data (Big Data), 2021. doi: 10.1109/BigData52589.2021.9671291.
 
 BibTeX:
 ``` 
